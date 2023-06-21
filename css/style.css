@@ -1,5 +1,6 @@
 :root {
-    --text-color: #F4F4FD;
+    --text-btn-color: #4d5ae5;
+    --bcg-btn: #F4F4FD;
 }
 
 body {
@@ -88,7 +89,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--text-color);
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -157,7 +158,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #F4F4FD;
+    color: var(--text-btn-color);
+    background-color: var(--bcg-btn);
+
 }
 
 .portfolio-btn:hover,
