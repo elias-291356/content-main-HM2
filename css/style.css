@@ -1,4 +1,6 @@
-:root {}
+:root {
+    --text-color: #F4F4FD;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -86,7 +88,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--text-color);
     cursor: pointer;
 }
 
@@ -154,7 +156,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     color: #F4F4FD;
 }
 
