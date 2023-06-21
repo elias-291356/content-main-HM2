@@ -19,7 +19,7 @@ body {
 
 .link {
     text-decoration: none;
-    font-family: "Raleway"sans-serif;
+    font-family: "Raleway", sans-serif;
 
 
 }
@@ -141,4 +141,39 @@ body {
 
 .footer .logo {
     font-family: "Raleway", sans-serif;
+}
+
+
+/* portfolio */
+.portfolio-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    color: #F4F4FD;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.portfolio-headline {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.portfolio-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
 }
