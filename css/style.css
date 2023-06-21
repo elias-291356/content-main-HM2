@@ -158,8 +158,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--text-btn-color);
-    background-color: var(--bcg-btn);
+    color: #4d5ae5;
+    background-color: #F4F4FD;
 
 }
 
